@@ -71,6 +71,19 @@ nav ul li a:hover::after{
     display: flex;
     flex-direction: column;
     gap: 8rem;
+    /* Ading Animation  */
+    animation: slideFromLeft 1s ease forwards;
+    opacity: 0;
+}
+@keyframes slideFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 .head-content{
     display: flex;
