@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/3561f15939.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="images/log.png" alt="" />
+      </div>
+      <div class="right">
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#Services">SERVICES</a></li>
+            <li><a href="#Contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="content">
+          <div class="head-content">
+            <h1 class="in">Welcome</h1>
+            <p>
+               To the digital playground where creativity meets functionality! I'm <strong id="name">Ritesh</strong>, a passionate and dynamic Full Stack Developer ready to redefine the digital landscape. As a fresh force in the tech realm, I bring a zest for innovation and a hunger to tackle the most complex challenges head-on. Whether it's crafting seamless user experiences or diving deep into the back-end intricacies, I thrive on the thrill of turning ideas into robust, real-world solutions.
+            </p>
+          </div>
+          <div class="low-content">
+            <div class="para">
+              <a href="#">jha61253@gmail.com</a>
+              <a href="#">123-456-7890</a>
+            </div>
+            <div class="icon">
+              <div class="icn">
+                <a href="#">
+                  <img src="images/twitter.svg" class="svg" alt="">
+                </a>
+              </div>
+              <div class="icn">
+                <a href="#">
+                  <img src="images/Microsoft.svg" class="svg" alt="">
+                </a>
+              </div>
+              <div class="icn">
+                <a href="#">
+                  <img src="images/instagram.svg" class="svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="break"></div>
+    <div class="about">
+      <div class="about-contain">
+       <div class="img"><img src="images/2.png" class="imag" alt=""></div>
+       <div class="about-content">
+        <h1>About Me</h1>
+        <p>Passionate and motivated second-year B.Tech student at HMR Institute of Technology and Management, India. A dedicated coder with a 4-star(⭐) rating on HackerRank. Proficient in various coding languages and frameworks. Enthusiastic about learning new skills, working on diverse projects, and contributing positively to the coding world. Seeking opportunities to leverage coding skills and curiosity for problem-solving.</p>
+        <div class="tab-titles">
+         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+         <p class="tab-links " onclick="opentab('experience')">Experience</p>
+         <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Skilled in Web Technologies</span><br>Proficient in C, HTML, CSS, and JavaScript.</li>
+            <li><span>Effective Troubleshooter</span><br>Problem-solving mindset with a knack for finding efficient solutions.</li>
+            <li><span>HackerRank Achiever</span><br>Coding enthusiast with a 4-star rating on HackerRank. </li>
+            <li><span>Pressure Resilience</span><br>Adaptability and ability to perform under pressure.</li>
+            <li><span>Lifelong Learner</span><br>Strong dedication to continuous learning and personal development.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Netflix_Clone</span><br>Sucessfuly Cloned Netflix Web site frontend</li>
+            <li><span>Managed Coding Portfolio</span><br>Developed and maintained a personal portfolio website showcasing coding projects.</li>
+            <li><span>Study_Sync Project</span><br>Created a study_sync Project frontend</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2022-2026(current)</span><br>Undergraduate Course B.tech HMR Insititute Of Technology & Management</li>
+            <li><span>2022</span><br>Govt Sarvodaya Coed Vidyalaya B-4</li>
+            <li><span>2020</span><br>Govt Sarvodaya Coed Vidyalaya B-4</li>
+          </ul>
+        </div> 
+      </div>
+      </div>
+    </div>
+    <div class="break"></div>
+    <div class="services">
+      <div class="container2">
+        <h1>My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-codepen"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nobis nostrum quam, nihil inventore?</p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nobis nostrum quam, nihil inventore?</p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>APP Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nobis nostrum quam, nihil inventore?</p>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="break"></div>
+    <div class="portfolio">
+      <div class="container3">
+        <h1>Projects</h1>
+        <div class="worklist">
+          <div class="work">
+            <img src="images/tic-tac-toe-35.png" alt="">
+            <div class="layer">
+              <h3>Tic Tac Toe</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur adipisci placeat non optio voluptate repellat veniam, soluta voluptates sed?</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/netflix-logo.webp" alt="">
+            <div class="layer">
+              <h3>Netflix_Clone</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur adipisci placeat non optio voluptate repellat veniam, soluta voluptates sed?</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/web.jpg" alt="">
+            <div class="layer">
+              <h3>Study_Sync</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur adipisci placeat non optio voluptate repellat veniam, soluta voluptates sed?</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <button class="button">See More</button>
+      </div>
+    </div>
+    <div class="break"></div>
+    <div class="contact">
+      <div class="left1">
+        <h1>Contact Me</h1>
+        <div class="email">
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+          <p>jha61253@gmail.com</p>
+        </div>
+        <div class="phone">
+          <a href=""><i class="fa-solid fa-phone"></i></a>
+          <p>7827046...</p>
+        </div>
+        <div class="icons">
+          <a href=""><i class="fa-brands fa-telegram"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="but">
+          <a href="images/Resume-Ritesh_HMRITM.pdf">Download Cv</a>
+        </div>
+      </div>
+      <div class="right1">
+        <div class="name">
+          <input type="text" class="name1" placeholder="Name">
+        </div>
+        <div class="number">
+          <input type="number" class="name1" placeholder="Number">
+        </div>
+        <div class="desc">
+          <textarea name="Message" id="area" cols="20" rows="6" class="name2" placeholder="Message"></textarea>
+        </div>
+        <div class="but1">
+          <a href="#">Submit</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>2024 copyright © Ritesh-portfolio</p>
+    </div>
+    
+    <!-- <button id="mod">T</button> -->
+    <!-- <script src="index.js"></script> -->
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+  </body>
+</html>
