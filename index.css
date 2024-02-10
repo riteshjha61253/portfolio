@@ -186,6 +186,9 @@ color: rgb(215, 206, 206);
     color: rgb(208, 46, 46);
     font-size: 1.5rem;
 }
+.left button {
+    display: none;
+}
 @media screen and (max-width:500px) {
     .container {
         width: 100%;
@@ -272,6 +275,17 @@ p {
     .svg {
         width: 10px;
         height: 10px;
+    }
+    .left button {
+        display: block;
+    }
+    .left button img {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        margin-left: 337px;
+        margin-top: -200px;
     }
 }
 .break{
@@ -415,7 +429,8 @@ margin: 10px 0;
         align-items: center;
     }
     .img {
-        width: 70%;
+        width: 50%;
+    margin-top: 15px;
     }
     .imag {
         width: 200px;
